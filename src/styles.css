@@ -1,0 +1,116 @@
+/* Mobile-first utility-ish styles (no framework needed) */
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.card {
+  background: #111827; /* gray-900 */
+  border: 1px solid #1f2937; /* gray-800 */
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+}
+
+.hstack {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.vstack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #374151; /* gray-700 */
+  background: #0b1220; /* deep slate */
+  color: #e5e7eb;
+}
+
+.button {
+  appearance: none;
+  border: 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: #2563eb; /* blue-600 */
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.button.secondary {
+  background: #334155; /* slate-700 */
+}
+.button.ghost {
+  background: transparent;
+  border: 1px solid #334155;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #1f2937; /* gray-800 */
+  color: #e5e7eb;
+  font-size: 12px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.table th,
+.table td {
+  border-bottom: 1px solid #1f2937;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+.table th {
+  background: #0b1220;
+  color: #9ca3af;
+}
+
+.kbd {
+  background: #0b1220;
+  border: 1px solid #334155;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #e5e7eb;
+}
+
+.hr {
+  height: 1px;
+  background: #1f2937;
+  border: 0;
+  margin: 12px 0;
+}
+
+.pill {
+  border-radius: 999px;
+  padding: 6px 10px;
+  border: 1px solid #334155;
+}
+.text-green {
+  color: #86efac;
+} /* green-300 */
+.text-red {
+  color: #fca5a5;
+} /* red-300 */
+
+.footer {
+  opacity: 0.7;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 24px;
+}
